@@ -1,0 +1,11 @@
+spring:
+    datasource:
+        password: 123
+        url: jdbc:mariadb://localhost:3306/gfl2711
+        username: student
+    jpa:
+        generate-ddl: true
+        hibernate:
+            naming:
+                physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+        show-sql: true
